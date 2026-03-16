@@ -1,3 +1,3 @@
-import { renombrar } from "./src/modules/renombrarArchivo.js"
+import { copiar } from "./src/modules/copiarArchivo.js"
 
-renombrar("./entrada.txt", "./salida.txt")
+copiar("./entrada.txt", "./salida.txt")

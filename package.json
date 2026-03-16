@@ -8,11 +8,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ej1.js && node ej2.js && node ej3.js && node ej4.js && node ej5.js",
+    "start": "node ej1.js && node ej2.js && node ej3.js && node ej4.js && node ej5.js && node ej6.js && node ej7.js",
     "ej1": "node ej1.js",
     "ej2": "node ej2.js",
     "ej3": "node ej3.js",
     "ej4": "node ej4.js",
-    "ej5": "node ej5.js"
+    "ej5": "node ej5.js",
+    "ej6": "node ej6.js",
+    "ej7": "node ej7.js"
+  },
+  "dependencies": {
+    "random-words": "^2.0.1"
   }
 }
